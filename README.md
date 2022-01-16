@@ -17,7 +17,7 @@ Minting happens through writing to the contract on Etherscan. There is a max sup
 
 4. Once you're confident all the parameters are correct, click the `Write` button. This will pop up Metamask to confirm the transaction and mint your NFT.
 
-5. **IMPORTANT:** Please go to [this google sheet](https://docs.google.com/spreadsheets/d/1VkxdxR7uSevSn2SuglfJxE3NuyAPXIFPNlBM-tUBIog/edit?usp=sharing) and mark which number you minted under the `is_taken` column, because transactions will revert if someone tries to mint the same NFT as you (aka write to the contract with the same `_tokenURI` param). Save your fellow degens gas and help them out by marking the sheet. Or help us build a front end to automate this. Either or :)
+5. **IMPORTANT:** Please go to [this google sheet](https://docs.google.com/spreadsheets/d/1VkxdxR7uSevSn2SuglfJxE3NuyAPXIFPNlBM-tUBIog/edit?usp=sharing) and mark "yes" if you minted under the `is_taken` column, because transactions will revert if someone tries to mint the same NFT as you (aka write to the contract with the same `_tokenURI` param). Save your fellow degens gas and help them out by marking the sheet. Or help us build a front end to automate this. Either or :)
 
 That's it, let us know how you like it by tweeting at us [@taxidermemes](https://twitter.com/taxidermemes)!
 
